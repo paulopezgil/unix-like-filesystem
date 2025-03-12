@@ -1,0 +1,19 @@
+find
+echo "This test case aims to clarify the rm command" > fileA.txt
+ls
+mkdir -p dir
+echo "The parent of the root directory is defined to be the root directory." > .././../dir/fileB.txt
+find
+mkdir -p dir2
+echo "Some text here..." > dir2/qwerty
+find
+cat dir/fileB.txt
+cat dir2/qwerty
+cat fileA.txt
+rm -r dir/fileB.txt
+find
+rm -r dir2
+find
+rm fileA.txt
+find
+exit

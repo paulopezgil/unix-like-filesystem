@@ -1,0 +1,8 @@
+mkdir -p a/a/a/a/a/a/a aa/aa aaa/aaa ab
+find
+cd a/a/a
+find
+cd
+find
+ls a/a/a
+exit

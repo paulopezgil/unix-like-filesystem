@@ -1,0 +1,14 @@
+mkdir -p a b c d e
+touch a/hello-a.txt b/hello-b.txt c/hello-c.txt d/hello-d.txt e/hello-e.txt
+ls
+cd a
+ls
+cd /
+ls
+cd e
+ls
+cd ..
+ls
+cd .
+ls
+exit
