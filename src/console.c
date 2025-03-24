@@ -85,7 +85,6 @@ int readString(char **str, char delimiter)
     /* turn the delimiter into a null terminator and return */
     (*str)[size] = '\0';
     return size + 1;
-    return 0;
 }
 
 /* skip the specified number of characters if they match the pattern */
@@ -171,7 +170,6 @@ int callTouch(Tree *dir)
 
     /* free the path and return */
     freePath(pt);
-    
     return 0;
 }
 
