@@ -2,6 +2,8 @@
 A small C program that emulates a Unix shell.
 
 ## Executing the program
+1 - build the program using make
+2 - Execute a.out
 
 ## Code organization
 
