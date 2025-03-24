@@ -1,3 +1,0 @@
-echo "First test case." > welcome
-cat welcome
-exit
